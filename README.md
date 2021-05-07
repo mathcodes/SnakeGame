@@ -1,9 +1,12 @@
 # SnakeGame
 
-### Click inside the game window, then use the :arrow_up:, :arrow_down:, :arrow_left:, and :arrow_right: keys to eat the blue bugs!
+## Click into the window and start playing using the up, down, left, and right keys to eat your food. See how high of a score you can get!!!
 
-## Images
-<img src ="/SnakeGame.png" alt="Github profile image"  width="50%" height="50%" />
+## [LIVE](https://replit.com/@fullstack11235/SnakeGame#scoreboard.py)
+
+## Image
+
+<img src ="/SnakeGame.png" alt="Github profile image" width="300px" height="300px" />
 
 ## Contact
 <img src ="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />
