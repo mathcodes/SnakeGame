@@ -7,7 +7,7 @@ import time
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
-screen.title("My Snake Game")
+screen.title("Feed Your Python")
 screen.tracer(0)
 
 snake = Snake()
@@ -27,13 +27,13 @@ while game_is_on:
     snake.move()
 
     #Detect collision with food.
-    if snake.head.distance(food) < 15:
+    if snake.head.distance(food) < 30:
         food.refresh()
         snake.extend()
         scoreboard.increase_score()
 
     #Detect collision with wall.
-    if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+    if snake.head.xcor() > 320 or snake.head.xcor() < -320 or snake.head.ycor() > 320 or snake.head.ycor() < -320:
         game_is_on = False
         scoreboard.game_over()
 
